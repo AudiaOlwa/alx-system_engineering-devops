@@ -1,2 +1,2 @@
 #!/bin/bash
-HBTN=89; echo $HBTN
+HBTN=89
