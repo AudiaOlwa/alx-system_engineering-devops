@@ -1,2 +1,6 @@
 #!/bin/bash
-echo "$PATH" | tr ':' '\n' | grep -v '^$' | wc -l
+count=0
+for dir in ${PATH//:/ }; do
+    ((count++))
+done
+echo "$count"
