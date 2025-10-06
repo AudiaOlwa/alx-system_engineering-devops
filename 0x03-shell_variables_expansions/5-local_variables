@@ -1,0 +1,11 @@
+#!/bin/bash
+# 5-local_variables
+
+# Liste toutes les variables locales et d'environnement
+declare -p
+
+# Liste uniquement les variables d'environnement
+env
+
+# Liste toutes les fonctions
+declare -F
